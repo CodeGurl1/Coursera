@@ -12,13 +12,87 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <title>Module_3 Page</title>
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            
+            <div class="navbar-brand"> Food, LLC
+            </div>
 
-  <h1>Hello Coursera!</h1>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            </div>
+
+            <div id="collapsable-nav" class="collapse navbar-collapse ">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+
+                  <li class="visible-xs">
+                    <a href="#Chicken">
+                        <!-- <br class="hidden-xs">  -->
+                          Chicken
+                        </a>
+                  </li>
+
+                  <li class="visible-xs">
+                      <a href="#Beef">
+                            Beef
+                          </a>
+                    </li>
+
+                    <li class="visible-xs">
+                        <a href="#Sushi">
+                              Sushi
+                            </a>
+                      </li>
+                  </ul>
+
+            </div>
+
+          </div>
+        </div> 
+  </header>
+
+  <div>
+      <h1>Our Menu</h1>
+  </div>
+  <Div class="container">
+    <div class="row" id="Chicken"> 
+      <div class="col-xs MenuItems">
+      <h1> Chicken </h1>
+      
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare massa dictum odio laoreet cursus. Vestibulum libero magna, semper non elementum ac, ultricies sit amet felis. Mauris et ipsum euismod, fermentum felis eu, vestibulum tortor. Integer volutpat pellentesque dolor viverra placerat. Sed blandit nisi nec lacus scelerisque dignissim. Integer sapien velit, scelerisque in eleifend quis, molestie sed mi. Nulla a purus porttitor, tempor nibh quis, mattis nisl. Curabitur aliquet urna et leo tristique posuere. Maecenas tellus mi, pharetra ac convallis sit amet, imperdiet luctus velit.
+        
+      </div>
+    </div>
+
+      <div class="row" id="Beef"> 
+        <div class="col-xs MenuItems">
+        <h1> Beef </h1>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare massa dictum odio laoreet cursus. Vestibulum libero magna, semper non elementum ac, ultricies sit amet felis. Mauris et ipsum euismod, fermentum felis eu, vestibulum tortor. Integer volutpat pellentesque dolor viverra placerat. Sed blandit nisi nec lacus scelerisque dignissim. Integer sapien velit, scelerisque in eleifend quis, molestie sed mi. Nulla a purus porttitor, tempor nibh quis, mattis nisl. Curabitur aliquet urna et leo tristique posuere. Maecenas tellus mi, pharetra ac convallis sit amet, imperdiet luctus velit.
+          </p>
+        </div>
+      </div>
+
+        <div class="row" id="Sushi"> 
+          <div class="col-xs MenuItems">
+          <h1> Sushi </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare massa dictum odio laoreet cursus. Vestibulum libero magna, semper non elementum ac, ultricies sit amet felis. Mauris et ipsum euismod, fermentum felis eu, vestibulum tortor. Integer volutpat pellentesque dolor viverra placerat. Sed blandit nisi nec lacus scelerisque dignissim. Integer sapien velit, scelerisque in eleifend quis, molestie sed mi. Nulla a purus porttitor, tempor nibh quis, mattis nisl. Curabitur aliquet urna et leo tristique posuere. Maecenas tellus mi, pharetra ac convallis sit amet, imperdiet luctus velit.
+            </p>
+          </div>
+        </div>
+      </Div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
