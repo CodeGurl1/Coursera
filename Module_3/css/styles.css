@@ -12,6 +12,10 @@ body {
 
 }
 
+#NavBarBrandName {
+    font-size: 1.8em;
+    color: White;
+}
 
 .MenuItems {
     font-family: 'Montserrat', sans-serif;
@@ -20,6 +24,9 @@ body {
     color: white;
     padding: 20px;
 
+}
+#collapsable-nav {
+    border:0px;
 }
 
 #nav-list {
@@ -46,4 +53,10 @@ body {
 
 #nav-list li {
     border: 1px solid white;
+    margin-top: 0px;
+}
+
+#nav-list ul {
+    border: 1px solid red;
+    margin-top: 0px;
 }
